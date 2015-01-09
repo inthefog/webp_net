@@ -15,8 +15,8 @@ To use .Net layer, first you need to build libwebp for Windows.
 2. Download latest libwebp: at the moment [libwebp-0.4.2.tar.gz](http://downloads.webmproject.org/releases/webp/libwebp-0.4.2.tar.gz) and extract it.
 3. Following lines should be typed in Windows terminal
 	1. cd C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC
-	2. vcvarsall.bat x64**
-	3. cd C:\\...\libwebp-0.4.2**
+	2. vcvarsall.bat x64
+	3. cd C:\\...\libwebp-0.4.2
 	4. nmake /f Makefile.vc CFG=release-dynamic ARCH=x64 RTLIBCFG=dynamic OBJDIR=output
 	5. Copy DLLs libwebp.dll, libwebpdecoder.dll from relative path output\release-dynamic\x64\bin to some folder visible by Windows PATH (but better not in system32).
 	
